@@ -48,6 +48,7 @@ async def 인증시작(ctx):
 
 # 여기에 봇의 토큰을 넣으세요. 실제 토큰을 공유하지 않는 것이 중요합니다.
 
-accass_token = os.environ["BOT_TOKEN"]
+access_token = os.environ["BOT_TOKEN"]  # 변수 이름 오타 수정
 
-bot.run(accas_token)
+bot.run(access_token)  # 수정된 변수 이름을 사용
+
