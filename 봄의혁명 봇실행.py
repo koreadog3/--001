@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 from discord.ui import Button, View
 import random
@@ -46,4 +47,6 @@ async def 인증시작(ctx):
     await ctx.send("아래 버튼을 눌러 인증을 완료해주세요.", view=verification_view)
 
 # 여기에 봇의 토큰을 넣으세요. 실제 토큰을 공유하지 않는 것이 중요합니다.
-bot.run('MTIxMTMwMzk2MzQ0MjU0NDY5MA.G1Y9tj.WTi1TvuUhsBXLUFPv1E0QzPjPVBIANcYp9_8NM')
+
+accass_token = os.environ["BOT_TOKEN"
+bot.run(accas_token)
